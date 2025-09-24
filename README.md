@@ -116,7 +116,7 @@ Tambahkan heading **h1** dan **h2** sebelum paragraf:
 
 ### 4️⃣ Memformat Teks
 
-Lakukan pemformatan teks pada paragraf, misalnya:
+Lakukan pemformatan teks Pada paragraf, misalnya:
 
 ```html
 <p align="center"><b>Teks ini tebal</b> dan <i>teks ini miring</i></p>
@@ -138,15 +138,9 @@ Lakukan pemformatan teks pada paragraf, misalnya:
 Simpan gambar pada folder yang sama, lalu tambahkan:
 
 ```html
-<h3>Menambahkan Gambar</h3>
-<img
-  src="Logo_UPB.png"
-  width="200"
-  title="Logo Universitas Pelita Bangsa"
-  alt="Logo UPB"
-/>
-```
+<img src="Universitas_Pelita_Bangsa.jpg" width="200" title="Logo Universitas Pelita Bangsa"
 
+```
 📸 **Screenshot Tampilan Gambar**
 
 <img src="code_gambar.png" width="700">
@@ -160,13 +154,11 @@ Tambahkan link navigasi sebelum heading h1:
 
 ```html
 <nav>
-  <a href="lab1_tag_dasar.html">Dasar HTML</a>
-  <a href="lab1_halaman2.html">Halaman 2</a>
-  <a href="http://www.google.com" target="_blank"
-    >Halaman Web Eksternal Google</a
-  >
+    <a href="lab1.html">Dasar HTML</a>
+    <a href="lab1_halaman2.HTML">Halaman2</a>
+    <a href="http://www.gogle.com">Halaman Web Eksternal Google</a>
 </nav>
-<hr />
+<hr>
 ```
 
 Buat file baru **`lab1_halaman2.html`** sebagai halaman kedua.
